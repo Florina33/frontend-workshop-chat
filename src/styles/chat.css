@@ -1,0 +1,26 @@
+body {
+	margin: 50px;
+}
+
+.chat-form {
+}
+
+.message-input {
+}
+
+.messages {
+	overflow: hidden;
+}
+.messages .message {
+	background: #ddd;
+	border-radius: 10px;
+	padding: 7px 14px;
+	margin-bottom: 17px;
+	width: 90%;
+}
+
+.messages .message.mine {
+    background: rgb(48, 152, 224);
+    color: #fff;
+    float: right;
+}
